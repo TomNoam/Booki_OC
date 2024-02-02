@@ -1,0 +1,281 @@
+header 
+{
+    flex-flow: column wrap;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+#main_logo 
+{
+    justify-content: center;
+    padding: 20%;
+    padding-bottom: 3%;
+    padding-top: 0%;
+    margin-top: 25px;
+    width: 100%;
+} 
+.logoAcorrection
+{
+    display: flex;
+    width: 50%;
+}
+#main_logo img
+{
+    width: 100%;
+}
+                                                    /* NAVIGATION */
+#nav
+{
+    align-content: center;
+    justify-content: center; 
+    width: auto;
+}
+.nav-link
+{ 
+    font-size: large;
+    padding: 10px;
+    padding-bottom: 15px;
+    flex-grow: 1;
+    border-top: none;
+    border-bottom: 3px solid transparent;
+}
+.nav-link:hover
+{
+    border-top: none;
+    border-bottom: 3px solid #0065fc ;
+}
+                                                    /*RECHERCHE */
+.boldtext
+{
+    font-size: 20px;
+}
+.lighttext
+{
+    font-size: 17px;
+}
+.whatis
+{
+    margin-top: -15px;
+}
+.iconegps
+{
+    height: 50px;
+    width: 50px;
+}
+.fa-map-marker-alt:before
+{
+    font-size: 105%;
+}
+.searchbar
+{
+    justify-content: center;
+    width: auto;
+    margin-top: 40px;
+}
+.searchzone
+{
+    height: 50px;
+    width:auto;
+}
+.marseilleBB
+{
+    height: 46px;
+    width: 220px;
+    font-size: 18px;
+}
+.buttonsearch .buttonword
+{
+    display:none
+}
+.fa-search
+{
+    display: flex;
+    font-size: large;
+}
+.buttonsearchMOBILE
+{
+    display: flex;
+    background-color: #0065fc;
+    height: 50px;
+    width: 50px;
+    border-radius: 16px 16px 16px 16px;
+}
+                                                    /*BARRE DE FILTRES */
+.titlefilter
+{ 
+    width: 100%;
+    font-size: large;
+    margin-bottom: 10px;
+}                                        
+.filterALL
+{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.wordz
+{
+    font-size: 75%; 
+}
+.filterbox
+{ 
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 15px;
+    border-left: none;
+    margin: 7px;
+}
+.filtericone
+{
+    border-radius: 30px 30px 30px 30px;
+    height: 50px;
+    width: 50px;
+}
+                                                        /* INFOS LOGEMENTS */
+.info500
+{
+    align-items: baseline;
+    margin-top: 25px;
+}
+.infologo
+{
+    height: 25px;
+    width: 25px;
+    font-size:x-small;
+}
+.log500
+{
+    font-size: medium;
+}
+                                                        /* BIGBLOCKS */
+.bigblocks
+{
+    flex-direction: column-reverse;
+    justify-content:center;
+}
+.bigblock01
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.bigblock02
+{
+    width: 100%;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-right: 0;
+    padding: 10px;
+}
+.lastbigblock
+{
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+                                                        /* CARD POPULAIRE*/
+.boxtitle01
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 0;
+}
+.cardpop
+{
+    height: 140px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.card_bodypop
+{
+    margin-left: 17px;
+    margin-top: 7px;
+    padding: 0;
+}
+.card_titlepop
+{
+    margin-top: 5px;
+    margin-right: 15px;
+    font-size: 17px;
+}
+.card_pricepop
+{
+    font-size: 17px;
+}
+.card_starsMpop
+{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+                                                        /* CARD MARSEILLE */
+.boxtitle
+{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: -45px;
+    padding-left: 0;
+}
+.afficherplus
+{
+    padding-left: 0;
+    margin-left: -45px;
+    margin-top: 25px;
+    font-size: 17px;
+}
+.card 
+{
+    width: 100%;
+    margin-right: 60px;
+}
+.linkcontentcard
+{
+    display: flex;
+    height: 215px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.card_body 
+{
+    padding: 0;
+    margin-top: 5px;
+}
+.card_title
+{
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.card_price 
+{
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.card_stars
+{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+                                                            /* FOOTER */
+.column1, .column2, .column3
+{
+    margin-right: 5%;
+}
+.titlefoot
+{
+    font-size: 18px;
+}
+.footlink
+{
+    font-size: 18px;
+}

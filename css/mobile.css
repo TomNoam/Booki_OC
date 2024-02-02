@@ -1,0 +1,114 @@
+                                                        /* CARD MARSEILLE */
+.boxtitle
+{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: -45px;
+    padding-left: 0;
+}
+.afficherplus
+{
+    padding-left: 0;
+    margin-left: -45px;
+    margin-top: 25px;
+    font-size: 17px;
+}
+.card 
+{
+    width: 100%;
+    margin-right: 60px;
+}
+.linkcontentcard
+{
+    display: flex;
+    height: 215px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.card_body 
+{
+    padding: 0;
+    margin-top: 5px;
+}
+.card_title
+{
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.card_price 
+{
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.card_stars
+{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+                                                    /* LAST BIG BLOCK */
+.boxtitle02
+{
+    font-size: 22px;
+    margin-top: 0;
+}
+.blockactivite
+{
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -10px;
+}
+.activit01 > a
+{
+    height: 185px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.activit02 > a
+{
+    height: 185px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.activit03 > a
+{
+    height: 185px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.activitcol2
+{
+    width: 100%;
+    height: auto;
+}
+.titleL
+{
+    font-size: 16px;
+}
+.marginrightA
+{
+   padding-right: 0;
+}
+.marginleftA
+{
+    padding-left: 0;
+}
+.marginbothA
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+                                                            /* FOOTER */
+.footer 
+{
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 35px;
+}
+.column1, .column2, .column3
+{
+    margin-right: 10%;
+}
